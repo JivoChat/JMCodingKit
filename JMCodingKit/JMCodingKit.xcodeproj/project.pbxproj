@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA42477A2626186100A286A6 /* JMCodingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4247782626186100A286A6 /* JMCodingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4247A32626187E00A286A6 /* JsonNumberCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247822626187D00A286A6 /* JsonNumberCoder.swift */; };
+		FA4247A42626187E00A286A6 /* JsonBooleanCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247832626187D00A286A6 /* JsonBooleanCoder.swift */; };
+		FA4247A52626187E00A286A6 /* JsonNullCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247842626187D00A286A6 /* JsonNullCoder.swift */; };
+		FA4247A62626187E00A286A6 /* JsonElement+Inout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247852626187D00A286A6 /* JsonElement+Inout.swift */; };
+		FA4247A72626187E00A286A6 /* JsonStringCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247862626187D00A286A6 /* JsonStringCoder.swift */; };
+		FA4247A82626187E00A286A6 /* JsonCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247872626187D00A286A6 /* JsonCoder.swift */; };
+		FA4247A92626187E00A286A6 /* JsonElement+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247882626187D00A286A6 /* JsonElement+Access.swift */; };
+		FA4247AA2626187E00A286A6 /* JsonArrayCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247892626187D00A286A6 /* JsonArrayCoder.swift */; };
+		FA4247AB2626187E00A286A6 /* JsonOrdictCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42478A2626187D00A286A6 /* JsonOrdictCoder.swift */; };
+		FA4247AC2626187E00A286A6 /* OrderedMap+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42478C2626187D00A286A6 /* OrderedMap+Codable.swift */; };
+		FA4247AD2626187E00A286A6 /* OrderedMap+Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42478D2626187D00A286A6 /* OrderedMap+Deprecated.swift */; };
+		FA4247AE2626187E00A286A6 /* OrderedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42478E2626187D00A286A6 /* OrderedMap.swift */; };
+		FA4247AF2626187E00A286A6 /* OrderedMap+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42478F2626187D00A286A6 /* OrderedMap+Description.swift */; };
+		FA4247B02626187E00A286A6 /* FlexibleReadingWorkzone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247912626187D00A286A6 /* FlexibleReadingWorkzone.swift */; };
+		FA4247B12626187E00A286A6 /* FlexibleWorkzone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247922626187D00A286A6 /* FlexibleWorkzone.swift */; };
+		FA4247B22626187E00A286A6 /* FlexibleWritingWorkzone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247932626187D00A286A6 /* FlexibleWritingWorkzone.swift */; };
+		FA4247B32626187E00A286A6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247942626187D00A286A6 /* SwiftyJSON.swift */; };
+		FA4247B52626187E00A286A6 /* SwiftyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4247982626187D00A286A6 /* SwiftyJSON.h */; };
+		FA4247B62626187E00A286A6 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA4247992626187D00A286A6 /* Info-iOS.plist */; };
+		FA4247B72626187E00A286A6 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42479A2626187D00A286A6 /* Info-watchOS.plist */; };
+		FA4247B82626187E00A286A6 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42479B2626187D00A286A6 /* Info-tvOS.plist */; };
+		FA4247B92626187E00A286A6 /* Info-macOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42479C2626187D00A286A6 /* Info-macOS.plist */; };
+		FA4247BA2626187E00A286A6 /* SwiftyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42479D2626187D00A286A6 /* SwiftyParser.swift */; };
+		FA4247BB2626187E00A286A6 /* FlexibleCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42479F2626187E00A286A6 /* FlexibleCoder.swift */; };
+		FA4247BC2626187E00A286A6 /* FlexibleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247A02626187E00A286A6 /* FlexibleContext.swift */; };
+		FA4247BD2626187E00A286A6 /* FlexibleElementCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247A12626187E00A286A6 /* FlexibleElementCoder.swift */; };
+		FA4247BE2626187E00A286A6 /* FlexibleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4247A22626187E00A286A6 /* FlexibleTypes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA4247752626186100A286A6 /* JMCodingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMCodingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4247782626186100A286A6 /* JMCodingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCodingKit.h; sourceTree = "<group>"; };
+		FA4247792626186100A286A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4247822626187D00A286A6 /* JsonNumberCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonNumberCoder.swift; sourceTree = "<group>"; };
+		FA4247832626187D00A286A6 /* JsonBooleanCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonBooleanCoder.swift; sourceTree = "<group>"; };
+		FA4247842626187D00A286A6 /* JsonNullCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonNullCoder.swift; sourceTree = "<group>"; };
+		FA4247852626187D00A286A6 /* JsonElement+Inout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonElement+Inout.swift"; sourceTree = "<group>"; };
+		FA4247862626187D00A286A6 /* JsonStringCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonStringCoder.swift; sourceTree = "<group>"; };
+		FA4247872626187D00A286A6 /* JsonCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCoder.swift; sourceTree = "<group>"; };
+		FA4247882626187D00A286A6 /* JsonElement+Access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonElement+Access.swift"; sourceTree = "<group>"; };
+		FA4247892626187D00A286A6 /* JsonArrayCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonArrayCoder.swift; sourceTree = "<group>"; };
+		FA42478A2626187D00A286A6 /* JsonOrdictCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonOrdictCoder.swift; sourceTree = "<group>"; };
+		FA42478C2626187D00A286A6 /* OrderedMap+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderedMap+Codable.swift"; sourceTree = "<group>"; };
+		FA42478D2626187D00A286A6 /* OrderedMap+Deprecated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderedMap+Deprecated.swift"; sourceTree = "<group>"; };
+		FA42478E2626187D00A286A6 /* OrderedMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedMap.swift; sourceTree = "<group>"; };
+		FA42478F2626187D00A286A6 /* OrderedMap+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderedMap+Description.swift"; sourceTree = "<group>"; };
+		FA4247912626187D00A286A6 /* FlexibleReadingWorkzone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleReadingWorkzone.swift; sourceTree = "<group>"; };
+		FA4247922626187D00A286A6 /* FlexibleWorkzone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleWorkzone.swift; sourceTree = "<group>"; };
+		FA4247932626187D00A286A6 /* FlexibleWritingWorkzone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleWritingWorkzone.swift; sourceTree = "<group>"; };
+		FA4247942626187D00A286A6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../SwiftyJSON.swift; sourceTree = "<group>"; };
+		FA4247982626187D00A286A6 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		FA4247992626187D00A286A6 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		FA42479A2626187D00A286A6 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		FA42479B2626187D00A286A6 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		FA42479C2626187D00A286A6 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		FA42479D2626187D00A286A6 /* SwiftyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyParser.swift; path = ../../SwiftyParser.swift; sourceTree = "<group>"; };
+		FA42479F2626187E00A286A6 /* FlexibleCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleCoder.swift; sourceTree = "<group>"; };
+		FA4247A02626187E00A286A6 /* FlexibleContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleContext.swift; sourceTree = "<group>"; };
+		FA4247A12626187E00A286A6 /* FlexibleElementCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleElementCoder.swift; sourceTree = "<group>"; };
+		FA4247A22626187E00A286A6 /* FlexibleTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4247722626186100A286A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA42476B2626186100A286A6 = {
+			isa = PBXGroup;
+			children = (
+				FA4247772626186100A286A6 /* JMCodingKit */,
+				FA4247762626186100A286A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4247762626186100A286A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4247752626186100A286A6 /* JMCodingKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4247772626186100A286A6 /* JMCodingKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA42479E2626187E00A286A6 /* FlexibleCoder */,
+				FA4247902626187D00A286A6 /* FlexibleWorkzone */,
+				FA4247812626187D00A286A6 /* JsonCoder */,
+				FA42478B2626187D00A286A6 /* OrderedMap */,
+				FA4247952626187D00A286A6 /* Source */,
+				FA4247942626187D00A286A6 /* SwiftyJSON.swift */,
+				FA42479D2626187D00A286A6 /* SwiftyParser.swift */,
+				FA4247782626186100A286A6 /* JMCodingKit.h */,
+				FA4247792626186100A286A6 /* Info.plist */,
+			);
+			path = JMCodingKit;
+			sourceTree = "<group>";
+		};
+		FA4247812626187D00A286A6 /* JsonCoder */ = {
+			isa = PBXGroup;
+			children = (
+				FA4247822626187D00A286A6 /* JsonNumberCoder.swift */,
+				FA4247832626187D00A286A6 /* JsonBooleanCoder.swift */,
+				FA4247842626187D00A286A6 /* JsonNullCoder.swift */,
+				FA4247852626187D00A286A6 /* JsonElement+Inout.swift */,
+				FA4247862626187D00A286A6 /* JsonStringCoder.swift */,
+				FA4247872626187D00A286A6 /* JsonCoder.swift */,
+				FA4247882626187D00A286A6 /* JsonElement+Access.swift */,
+				FA4247892626187D00A286A6 /* JsonArrayCoder.swift */,
+				FA42478A2626187D00A286A6 /* JsonOrdictCoder.swift */,
+			);
+			name = JsonCoder;
+			path = ../../JsonCoder;
+			sourceTree = "<group>";
+		};
+		FA42478B2626187D00A286A6 /* OrderedMap */ = {
+			isa = PBXGroup;
+			children = (
+				FA42478C2626187D00A286A6 /* OrderedMap+Codable.swift */,
+				FA42478D2626187D00A286A6 /* OrderedMap+Deprecated.swift */,
+				FA42478E2626187D00A286A6 /* OrderedMap.swift */,
+				FA42478F2626187D00A286A6 /* OrderedMap+Description.swift */,
+			);
+			name = OrderedMap;
+			path = ../../OrderedMap;
+			sourceTree = "<group>";
+		};
+		FA4247902626187D00A286A6 /* FlexibleWorkzone */ = {
+			isa = PBXGroup;
+			children = (
+				FA4247912626187D00A286A6 /* FlexibleReadingWorkzone.swift */,
+				FA4247922626187D00A286A6 /* FlexibleWorkzone.swift */,
+				FA4247932626187D00A286A6 /* FlexibleWritingWorkzone.swift */,
+			);
+			name = FlexibleWorkzone;
+			path = ../../FlexibleWorkzone;
+			sourceTree = "<group>";
+		};
+		FA4247952626187D00A286A6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA4247962626187D00A286A6 /* SwiftyJSON */,
+				FA4247992626187D00A286A6 /* Info-iOS.plist */,
+				FA42479A2626187D00A286A6 /* Info-watchOS.plist */,
+				FA42479B2626187D00A286A6 /* Info-tvOS.plist */,
+				FA42479C2626187D00A286A6 /* Info-macOS.plist */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		FA4247962626187D00A286A6 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA4247982626187D00A286A6 /* SwiftyJSON.h */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		FA42479E2626187E00A286A6 /* FlexibleCoder */ = {
+			isa = PBXGroup;
+			children = (
+				FA42479F2626187E00A286A6 /* FlexibleCoder.swift */,
+				FA4247A02626187E00A286A6 /* FlexibleContext.swift */,
+				FA4247A12626187E00A286A6 /* FlexibleElementCoder.swift */,
+				FA4247A22626187E00A286A6 /* FlexibleTypes.swift */,
+			);
+			name = FlexibleCoder;
+			path = ../../FlexibleCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA4247702626186100A286A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4247B52626187E00A286A6 /* SwiftyJSON.h in Headers */,
+				FA42477A2626186100A286A6 /* JMCodingKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA4247742626186100A286A6 /* JMCodingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42477D2626186100A286A6 /* Build configuration list for PBXNativeTarget "JMCodingKit" */;
+			buildPhases = (
+				FA4247702626186100A286A6 /* Headers */,
+				FA4247712626186100A286A6 /* Sources */,
+				FA4247722626186100A286A6 /* Frameworks */,
+				FA4247732626186100A286A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMCodingKit;
+			productName = JMCodingKit;
+			productReference = FA4247752626186100A286A6 /* JMCodingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA42476C2626186100A286A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA4247742626186100A286A6 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = FA42476F2626186100A286A6 /* Build configuration list for PBXProject "JMCodingKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA42476B2626186100A286A6;
+			productRefGroup = FA4247762626186100A286A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4247742626186100A286A6 /* JMCodingKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4247732626186100A286A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4247B82626187E00A286A6 /* Info-tvOS.plist in Resources */,
+				FA4247B72626187E00A286A6 /* Info-watchOS.plist in Resources */,
+				FA4247B92626187E00A286A6 /* Info-macOS.plist in Resources */,
+				FA4247B62626187E00A286A6 /* Info-iOS.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4247712626186100A286A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4247AB2626187E00A286A6 /* JsonOrdictCoder.swift in Sources */,
+				FA4247A72626187E00A286A6 /* JsonStringCoder.swift in Sources */,
+				FA4247BB2626187E00A286A6 /* FlexibleCoder.swift in Sources */,
+				FA4247B02626187E00A286A6 /* FlexibleReadingWorkzone.swift in Sources */,
+				FA4247A62626187E00A286A6 /* JsonElement+Inout.swift in Sources */,
+				FA4247BA2626187E00A286A6 /* SwiftyParser.swift in Sources */,
+				FA4247A42626187E00A286A6 /* JsonBooleanCoder.swift in Sources */,
+				FA4247B12626187E00A286A6 /* FlexibleWorkzone.swift in Sources */,
+				FA4247B22626187E00A286A6 /* FlexibleWritingWorkzone.swift in Sources */,
+				FA4247BD2626187E00A286A6 /* FlexibleElementCoder.swift in Sources */,
+				FA4247A52626187E00A286A6 /* JsonNullCoder.swift in Sources */,
+				FA4247A32626187E00A286A6 /* JsonNumberCoder.swift in Sources */,
+				FA4247AE2626187E00A286A6 /* OrderedMap.swift in Sources */,
+				FA4247AA2626187E00A286A6 /* JsonArrayCoder.swift in Sources */,
+				FA4247AC2626187E00A286A6 /* OrderedMap+Codable.swift in Sources */,
+				FA4247AF2626187E00A286A6 /* OrderedMap+Description.swift in Sources */,
+				FA4247A82626187E00A286A6 /* JsonCoder.swift in Sources */,
+				FA4247B32626187E00A286A6 /* SwiftyJSON.swift in Sources */,
+				FA4247BC2626187E00A286A6 /* FlexibleContext.swift in Sources */,
+				FA4247AD2626187E00A286A6 /* OrderedMap+Deprecated.swift in Sources */,
+				FA4247A92626187E00A286A6 /* JsonElement+Access.swift in Sources */,
+				FA4247BE2626187E00A286A6 /* FlexibleTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA42477B2626186100A286A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA42477C2626186100A286A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA42477E2626186100A286A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2Z8328WFM8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMCodingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivosite.JMCodingKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA42477F2626186100A286A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2Z8328WFM8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMCodingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivosite.JMCodingKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA42476F2626186100A286A6 /* Build configuration list for PBXProject "JMCodingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42477B2626186100A286A6 /* Debug */,
+				FA42477C2626186100A286A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA42477D2626186100A286A6 /* Build configuration list for PBXNativeTarget "JMCodingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42477E2626186100A286A6 /* Debug */,
+				FA42477F2626186100A286A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA42476C2626186100A286A6 /* Project object */;
+}

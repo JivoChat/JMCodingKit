@@ -1,0 +1,11 @@
+framework module JMCodingKit {
+  umbrella header "JMCodingKit.h"
+
+  export *
+  module * { export * }
+}
+
+module JMCodingKit.Swift {
+    header "JMCodingKit-Swift.h"
+    requires objc
+}
