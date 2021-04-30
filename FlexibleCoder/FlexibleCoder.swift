@@ -17,7 +17,7 @@ open class FlexibleCoder<Element: FlexibleElement, Options: FlexibleCodingOption
         preconditionFailure("Please specify decoders in subclass")
     }
     
-    public final func decode(raw: String, options: Options = []) -> Element? {
+    public func decode(raw: String, options: Options = []) -> Element? {
         let startedAt = Date()
         defer {
             if options.verboseLogging() {

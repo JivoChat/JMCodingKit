@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name        = "JMCodingKit"
-  s.version     = "5.0.0"
+  s.version     = "5.0.1"
   s.summary     = "JMCodingKit makes it easy to deal with JsonElement data in Swift"
-  s.homepage    = "https://github.com/SwiftyJSON/SwiftyJSON"
+  s.homepage    = "https://github.com/JivoChat/JMCodingKit"
   s.license     = { :type => "MIT" }
-  s.authors     = { "lingoer" => "lingoerer@gmail.com", "tangplin" => "tangplin@gmail.com" }
+  s.authors     = { "JivoChat" => "info@jivochat.com" }
 
   s.requires_arc = true
   s.swift_version = "5.0"

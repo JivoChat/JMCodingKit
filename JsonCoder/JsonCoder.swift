@@ -46,4 +46,8 @@ public final class JsonCoder: FlexibleCoder<JsonElement, JsonCodingOptions> {
     public override var coders: [FlexibleElementCoder] {
         return elementCoders
     }
+
+    public override func decode(raw: String, options: JsonCodingOptions = []) -> JsonElement? {
+        super.decode(raw: raw.trimmingCharacters(in: .whitespacesAndNewlines), options: options)
+    }
 }
