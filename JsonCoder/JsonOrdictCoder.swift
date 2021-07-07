@@ -55,6 +55,8 @@ final class JsonOrdictCoder: FlexibleElementCoder {
             
             ordict[key] = objectElement
             
+            context.workzone.jumpTo(gapSymbols.inverted)
+            
             if context.workzone.skipIf(pointsTo: separatorToken) {
                 continue
             }
